@@ -1,33 +1,14 @@
----
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
----
-
-//
-//                        ___
-//                       /\_ \
-//  _____     ___     ___\//\ \      __
-// /\ '__`\  / __`\  / __`\\ \ \   /'__`\
-// \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
-//  \ \ ,__/\ \____/\ \____//\____\ \____\
-//   \ \ \/  \/___/  \/___/ \/____/\/____/
-//    \ \_\
-//     \/_/
-//
-// Designed, built, and released under MIT license by @mdo. Learn more at
-// https://github.com/poole/poole.
-
-@import "variables";
-@import "base";
-@import "type";
-@import "syntax";
-@import "code";
-@import "layout";
-@import "masthead";
-@import "posts";
-@import "pagination";
-@import "message";
-@import "toc";
+@import '_sass/variables';
+@import '_sass/base';
+@import '_sass/type';
+@import '_sass/syntax';
+@import '_sass/code';
+@import '_sass/layout';
+@import '_sass/masthead';
+@import '_sass/posts';
+@import '_sass/pagination';
+@import '_sass/message';
+@import '_sass/toc';
 
 // Sass for creating the swatches
 .colors {
@@ -45,3 +26,8 @@
     margin-left: var(--spacer);
   }
 }
+
+
+h1 {}
+#email-list input{padding:1em;width: 100%;font-family: monospace;letter-spacing: 2px;text-transform: uppercase;}
+footer {position: absolute;bottom: 0;}
