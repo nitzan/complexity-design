@@ -3,7 +3,7 @@ title: Complexity Design
 tagline: 
 url: https://complexity-design.com
 paginate: 1
-baseurl: /
+baseurl:
 permalink: pretty
 
 # Gems
