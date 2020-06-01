@@ -28,6 +28,52 @@
 }
 
 
-h1 {}
+
+
 #email-list input{padding:1em;width: 100%;font-family: monospace;letter-spacing: 2px;text-transform: uppercase;}
+
 footer {position: absolute;bottom: 0;}
+
+
+
+
+html, body {height: 100%;width:100%;}
+.content {background: white;height: 100%;width:95%;}
+body {
+		font-size: 18px;
+		color: black;
+
+		h1, h2, h3, h4, h5 {color:black; font-size: 1em;
+			
+
+		}
+
+		.page-title {color: black;}
+
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6, bold, strong, b { /* replace with your selector */
+	font-family: "Atlas Grotesk Bold";
+	font-weight: normal;
+	font-style: normal;
+}
+
+italic, i, blockquote { /* replace with your selector */
+	font-family: "Atlas Grotesk Regular Italic";
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, a, p, small { /* replace with your selector */
+	font-family: "Atlas Grotesk Regular";
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h1.masthead-title{font-size: 1.5em;}
+
+#email-list {margin: 4em 0;}
