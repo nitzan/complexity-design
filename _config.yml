@@ -1,6 +1,6 @@
 # Setup
 title: Complexity Design
-tagline: 
+tagline:
 url: https://complexity-design.com
 paginate: 1
 baseurl:
@@ -11,6 +11,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+
 
 # Optimize Jekyll
 exclude:
@@ -33,7 +34,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Nitzan Hermon 
+  name: Nitzan Hermon
   url: https://twitter.com/byedit
   email: x@byed.it
 
